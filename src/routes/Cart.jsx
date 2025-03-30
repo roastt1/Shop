@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { increase } from "../store/store";
 
 function Cart() {
+  //commit-test
   let cart = useSelector((state) => state.cart);
   let dispatch = useDispatch();//store.js로 요청보내주는 함수
 
