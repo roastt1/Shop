@@ -10,7 +10,6 @@ function Cart() {
   return (
     <div>
       <Table striped bordered hover responsive>
-
         <thead>
           <tr>
             <th>#</th>

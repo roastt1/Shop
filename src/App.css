@@ -1,23 +1,23 @@
 
-
 .navbar-top {
-    font-size: 11px;
-    top: -5px;
-    margin-bottom: -10px;
+    font-size: 12px;
+    padding: 10px 20px;
 }
 
 .main-bg {
-    height: 400px;
+    height: 300px;
     background-image: url(https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/04/bg.png);
     background-size: cover;
     background-position: center;
 }
 
 .product-list {
-    margin-top: 20px;
     transition: all 0.3s ease-in-out;
+    margin: 50px;
     padding: 30px;
-    border-radius: 8px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .product-list:hover {
@@ -27,29 +27,32 @@
     cursor: pointer;
 }
 
-.get-button {
-    background-color: white;
-    width: 100px;
-    height: 40px;
-    border: 1px solid black;
-    border-radius: 10px;
+.sale-box {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ffcc00;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
 }
 
-.sale-box {
-    margin: 10px 0px;
-    background-color: rgb(255, 240, 154);
-    width: 200px;
-    height: 50px;
-    align-content: center;
-    text-align: center;
-}
 
 .product-detail {
-    margin: 50px 300px;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .tabs-main {
-    margin: 10px 300px 500px;
+    padding: 10px;
+    color: #000000;
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .start {
