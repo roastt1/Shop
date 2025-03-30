@@ -1,0 +1,65 @@
+
+
+.navbar-top {
+    font-size: 11px;
+    top: -5px;
+    margin-bottom: -10px;
+}
+
+.main-bg {
+    height: 400px;
+    background-image: url(https://codingapple-cdn.b-cdn.net/wp-content/uploads/2022/04/bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.product-list {
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.product-list:hover {
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+    cursor: pointer;
+}
+
+.get-button {
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.sale-box {
+    margin: 10px 0px;
+    background-color: rgb(255, 240, 154);
+    width: 200px;
+    height: 50px;
+    align-content: center;
+    text-align: center;
+}
+
+.product-detail {
+    margin: 50px 300px;
+}
+
+.tabs-main {
+    margin: 10px 300px 500px;
+}
+
+.start {
+    opacity: 0;
+    transform: translateY(10px);
+}
+
+.end {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
